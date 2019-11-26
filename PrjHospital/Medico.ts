@@ -3,19 +3,24 @@ namespace hospital{
          private _crm: number;
          private _especialidade: number;
 
-         public setCrm(){
+         
+        public getCrm(){
+            
              return this._crm;
          }
 
-         public getCrm(crm:number){
-             this._crm = crm;
+         public setCrm(crm:number){
+              this._crm = crm;
          }
 
-         public setEspecialidade(){
+        public getEspecialidade(){
              return this._especialidade;
          }
 
-         public getEspecialidade(especialidade:number){
-            this._especialidade = especialidade;
+         public setEspecialidade(especialidade:number){
+          
+             this._especialidade = especialidade;
          }
+
+    }    
 }
