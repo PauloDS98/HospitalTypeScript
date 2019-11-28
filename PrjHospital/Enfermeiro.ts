@@ -1,3 +1,4 @@
+///<reference path="Funcionario.ts"/>
 namespace hospital{
     export class Enfermeiro extends Funcionario{
         private _Coren:number;

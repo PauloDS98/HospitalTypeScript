@@ -1,7 +1,9 @@
+///<reference path="Funcionario.ts"/>
+
 namespace hospital{
      export class Medico extends Funcionario{
          private _crm: number;
-         private _especialidade: number;
+         private _especialidade: string;
 
          
         public getCrm(){
@@ -17,7 +19,7 @@ namespace hospital{
              return this._especialidade;
          }
 
-         public setEspecialidade(especialidade:number){
+         public setEspecialidade(especialidade:string){
           
              this._especialidade = especialidade;
          }

@@ -1,3 +1,5 @@
+ ///<reference path="pessoa.ts"/>
+ 
  namespace hospital{
      export class Funcionario extends Pessoa{
          private _codFuncionario:number;
